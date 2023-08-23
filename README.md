@@ -1,2 +1,7 @@
 # Grupo-5-Sistemas-y-Organizaciones
-Grupo 5 trabajo 1 segundo cuatrimestre
+Segundo cuatrimestre primer trabajo.
+Integrantes:
+Tobias Tinaro
+Leandro Asis
+Jeremias Vergara
+Diego Piccinali
