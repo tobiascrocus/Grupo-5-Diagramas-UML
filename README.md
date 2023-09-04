@@ -2,6 +2,5 @@
 Segundo cuatrimestre primer trabajo.
 Integrantes:
 Tobias Tinaro
-Leandro Asis 
+Leandro Asis
 Jeremías Vergara
-Diego Piccinali
