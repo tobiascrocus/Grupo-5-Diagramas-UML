@@ -6,7 +6,7 @@ using System.Collections.Generic;
 /// <summary>
 /// 
 /// </summary>
-public class Producto
+public class Cliente
 {
 
   #region Aggregations
@@ -21,11 +21,20 @@ public class Producto
 
   #region Attributes
 
-
   /// <summary>
   /// 
   /// </summary>
-  private int id;
+  private int ID
+  {
+    get
+    {
+      return ID;
+    }
+    set
+    {
+      ID = value;
+    }
+  }
 
 
   /// <summary>
@@ -37,7 +46,11 @@ public class Producto
   /// <summary>
   /// 
   /// </summary>
-  private double precio;
+
+  private string Direccion;
+
+  private double deuda;
+
 
 
 
@@ -45,6 +58,19 @@ public class Producto
 
 
   #region Public methods
+
+  /// <summary>
+  /// 
+  /// </summary>
+  /// <returns></returns>
+
+  public void realizarCompra()
+
+  public void realizarPago()
+
+  {
+    throw new Exception("The method or operation is not implemented.");
+  }
 
   #endregion
 

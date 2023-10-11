@@ -3,10 +3,11 @@ using System.Text;
 using System.Collections;
 using System.Collections.Generic;
 
+
 /// <summary>
 /// 
 /// </summary>
-public class Producto
+public class Factura
 {
 
   #region Aggregations
@@ -21,23 +22,22 @@ public class Producto
 
   #region Attributes
 
-
   /// <summary>
   /// 
   /// </summary>
-  private int id;
-
-
-  /// <summary>
-  /// 
-  /// </summary>
-  private string nombre;
+  private int ID;
 
 
   /// <summary>
   /// 
   /// </summary>
-  private double precio;
+  private Fecha fecha;
+
+
+  /// <summary>
+  /// 
+  /// </summary>
+  private double monto;
 
 
 

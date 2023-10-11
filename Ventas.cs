@@ -3,10 +3,11 @@ using System.Text;
 using System.Collections;
 using System.Collections.Generic;
 
+
 /// <summary>
 /// 
 /// </summary>
-public class Producto
+public class Ventas
 {
 
   #region Aggregations
@@ -21,7 +22,6 @@ public class Producto
 
   #region Attributes
 
-
   /// <summary>
   /// 
   /// </summary>
@@ -31,13 +31,19 @@ public class Producto
   /// <summary>
   /// 
   /// </summary>
-  private string nombre;
+  private Fecha fecha;
 
 
   /// <summary>
   /// 
   /// </summary>
-  private double precio;
+  private Producto producto;
+
+
+  /// <summary>
+  /// 
+  /// </summary>
+  private double total;
 
 
 

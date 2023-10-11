@@ -3,10 +3,11 @@ using System.Text;
 using System.Collections;
 using System.Collections.Generic;
 
+
 /// <summary>
 /// 
 /// </summary>
-public class Producto
+public class SistemaVenta
 {
 
   #region Aggregations
@@ -21,23 +22,22 @@ public class Producto
 
   #region Attributes
 
-
   /// <summary>
   /// 
   /// </summary>
-  private int id;
-
-
-  /// <summary>
-  /// 
-  /// </summary>
-  private string nombre;
+  private Cliente clientes;
 
 
   /// <summary>
   /// 
   /// </summary>
-  private double precio;
+  private Producto producto;
+
+
+  /// <summary>
+  /// 
+  /// </summary>
+  private Ventas ventas;
 
 
 
@@ -45,6 +45,24 @@ public class Producto
 
 
   #region Public methods
+
+  /// <summary>
+  /// 
+  /// </summary>
+  /// <returns></returns>
+  public void registrarVenta()
+  {
+    throw new Exception("The method or operation is not implemented.");
+  }
+
+  /// <summary>
+  /// 
+  /// </summary>
+  /// <returns></returns>
+  public void generarReporte()
+  {
+    throw new Exception("The method or operation is not implemented.");
+  }
 
   #endregion
 
