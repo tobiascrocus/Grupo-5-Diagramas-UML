@@ -6,7 +6,7 @@ using System.Collections.Generic;
 /// <summary>
 /// 
 /// </summary>
-public class Producto
+public class Proveedor
 {
 
   #region Aggregations
@@ -20,7 +20,6 @@ public class Producto
   #endregion
 
   #region Attributes
-
 
   /// <summary>
   /// 
@@ -37,7 +36,7 @@ public class Producto
   /// <summary>
   /// 
   /// </summary>
-  private double precio;
+  private string contacto;
 
 
 
